@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS | Assignment 2 |Judging a Book by it’s Cover</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins:wght@200&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+      <div class="container-fluid">
+    <!--Nav section-->
+    <!--Icon-->
+    
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/icon2.png"
+            width="40"
+            height="40"
+            class="d-inline-block align-top"
+            alt="Icon"
+          />
+          TheBook
+        </a>
+
+        <!--Icon section ends-->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Categories</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Fantasy</a>
+              <a class="dropdown-item" href="#">Historical</a>
+              <a class="dropdown-item" href="#">Romance</a>
+              <a class="dropdown-item" href="#">Mystery</a>
+              <a class="dropdown-item" href="#">Horror</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Top rated</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About our bookstore</a>
+          </li>
+        </ul>
+      </nav>
+    
+      <header>
+          <h1>Welcome to TheBook store</h1>
+  
+          <h4>Feel free browse through the site and find some treasures</h4>
+      </header>
+    <!--Nav section ends-->
+    <!-- Add your site or application content here -->
+    <main>
+   
+ <!--accordion section -->
+ <section class="row">
+    
+ <div class="accordion col-sm-12 col-md-12 col-lg-8" id="accordionExample">
+    <div class="card bg-dark">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button
+            class="btn btn-link"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            About the Author
+          </button>
+        </h2>
+      </div>
+
+      <div
+        id="collapseOne"
+        class="collapse show"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <img
+            src="img/author.jpg"
+            width="300"
+            height="400"
+            alt="Book author:Joanne Rowling"
+            id="author"
+          />
+          <p>
+            Joanne Rowling born 31 July 1965, better known by her pen name J.
+            K. Rowling, is a British writer and philanthropist. She is best
+            known for writing the Harry Potter fantasy series, which has won
+            multiple awards and sold more than 500 million copies,
+            becoming the best-selling book series in history. The books
+            are the basis of a popular film series, over which Rowling had
+            overall approval on the scripts[5] and was a producer on the
+            final films.She also writes crime fiction under the pen name
+            Robert Galbraith.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/J._K._Rowling"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            About the Book
+          </button>
+        </h2>
+      </div>
+      <div
+        id="collapseTwo"
+        class="collapse"
+        aria-labelledby="headingTwo"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>Harry Potter and the Philosopher's Stone is a fantasy novel
+          written by British author J. K. Rowling. The first novel in the
+          Harry Potter series and Rowling's debut novel, it follows Harry
+          Potter, a young wizard who discovers his magical heritage on his
+          eleventh birthday, when he receives a letter of acceptance to
+          Hogwarts School of Witchcraft and Wizardry. Harry makes close
+          friends and a few enemies during his first year at the school, and
+          with the help of his friends, Harry faces an attempted comeback by
+          the dark wizard Lord Voldemort, who killed Harry's parents, but
+          failed to kill Harry when he was just 15 months old.</p>
+           <p>The book was
+          first published in the United Kingdom on 26 June 1997 by
+          Bloomsbury. It was published in the United States the following
+          year by Scholastic Corporation under the title Harry Potter and
+          the Sorcerer's Stone. It won most of the British book awards that
+          were judged by children and other awards in the US. The book
+          reached the top of the New York Times list of best-selling fiction
+          in August 1999 and stayed near the top of that list for much of
+          1999 and 2000. It has been translated into at least 73 other
+          languages, and has been made into a feature-length film of the
+          same name, as have all six of its sequels.</p>
+           <p>Most reviews were very
+          favourable, commenting on Rowling's imagination, humour, simple,
+          direct style and clever plot construction, although a few
+          complained that the final chapters seemed rushed. The writing has
+          been compared to that of Jane Austen, one of Rowling's favourite
+          authors; Roald Dahl, whose works dominated children's stories
+          before the appearance of Harry Potter; and the Ancient Greek
+          story-teller Homer. While some commentators thought the book
+          looked backwards to Victorian and Edwardian boarding school
+          stories, others thought it placed the genre firmly in the modern
+          world by featuring contemporary ethical and social issues, as well
+          as overcoming obstacles like bullies. Harry Potter and the
+          Philosopher's Stone, along with the rest of the Harry Potter
+          series, has been attacked by some religious groups and banned in
+          some countries because of accusations that the novels promote
+          witchcraft under the guise of a heroic, moral story. Other
+          religious commentators have written that the book exemplifies
+          important viewpoints, including the power of self-sacrifice and
+          the ways in which people's decisions shape their personalities.
+          The series has been used as a source of object lessons in
+          educational techniques, sociological analysis and marketing.
+        </p>
+          <a
+            href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone#:~:text=The%20first%20novel%20in%20the,School%20of%20Witchcraft%20and%20Wizardry."
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Reviews
+          </button>
+        </h2>
+      </div>
+      <div
+        id="collapseThree"
+        class="collapse"
+        aria-labelledby="headingThree"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+            
+          <p>Harry Potter and the Sorcerer’s Stone</p>
+          <p>Orphaned Harry Potter has been living a dog’s life with his horrible relatives. He sleeps in the broom cupboard under the stairs and is treated as a slave by his aunt and uncle. On his eleventh birthday, mysterious missives begin arriving for him, culminating eventually in the arrival of a giant named Hagrid, who has come to escort him to the Hogwarts School of Witchcraft and Wizardry. Harry learns that his parents died saving him from an evil sorcerer and that he himself is destined to be a wizard of great power. Harry’s astonished introduction to the life of wizardry starts with his purchase, under Hagrid’s guidance, of all the tools of an aspiring sorcerer: wand, robes, cauldron, broomstick, owl. Hogwarts is the typical British public school, with much emphasis placed on games and the honor of the Houses. Harry’s house is Gryffindor, the time-honored rival of Slytherin: he becomes a star at Quidditch, an extremely complicated game played with four different balls while the whole team swoops about on broomsticks. He studies Herbology, the History of Magic, Charms, Potions, the Dark Arts, and other arcane subjects, all the while getting closer to his destiny and the secret of the sorcerer’s stone. He makes friends (and enemies), goes through dangerous and exciting adventures, and justifies the hopeful predictions about him. The light-hearted caper travels through the territory owned by the late Roald Dahl, especially in the treatment of the bad guys — they are uniformly as unshadedly awful as possible — but the tone is a great deal more affectionate. A charming and readable romp with a most sympathetic hero and filled with delightful magic details. ANN A. FLOWERS</p>
+       <p>⭐⭐⭐⭐⭐</p>
+       <p>---------------------------------------------------------------</p>
+       <p>Harry Potter and the Chamber of Secrets</p>
+       <p>In this sequel to the phenomenally popular Harry Potter and the Sorcerer’s Stone, Harry returns to Hogwarts School of Witchcraft and Wizardry for his second year after a miserable summer with his Muggle (nonmagical) relatives. Once again, Harry’s school experiences are colored by encounters with genial ghosts and antagonistic teachers, by the rivalry between good-guy Gryffindor House and slimy Slytherin House, and by an ominous mystery to be solved involving Harry’s archenemy, the dark sorcerer Lord Voldemort. Once again, the attraction of Rowling’s traditional British school story is magnified tenfold by the fantasy elements superimposed upon it. The atmosphere Rowling creates is unique; the story whizzes along; Harry is an unassuming and completely sympathetic hero. But, truth to tell, you may feel as if you’ve read it all before. Rowling clearly hit on a winning formula with the first Harry Potter book; the second book — though still great fun — feels a tad, well, formulaic. MARTHA V. PARRAVANO</p>
+       <p>⭐⭐⭐⭐⭐</p>
+       <p>---------------------------------------------------------------</p>
+       <p>Harry Potter and the Prisoner of Azkaban</p>
+       <p>All current reviews of Harry Potter books should probably be addressed to some future audience for whom Harry is book rather than phenomenon; at the moment, reviews seem superfluous. For the record, then, O future reader, this latest installment in Harry’s saga is quite a good book. The basics remain the same: it’s another year at Hogwarts School of Witchcraft and Wizardry (where there’s perforce a new Defense Against the Dark Arts teacher); it’s still Harry, Ron, Hermione, Hagrid, Gryffindor House, and the headmaster versus Professor Snape, Draco Malfoy and his Slytherin goons, Lord Voldemort, and various other forces of darkness. But all the elements that make the formula work are heightened here. The characters are particularly interesting, especially the aforementioned new teacher, Professor Lupin, a man with a howling secret; Sirius Black, a feared, possibly mad, escaped prisoner who is believed to have betrayed Harry’s parents and is now said to be after Harry; and Harry himself, who in facing the reality of his parents’ violent deaths becomes a stronger person — and a more complex hero. The Quidditch action is the best yet; the Hogwarts classes (Care of Magical Creatures, Divination, and Potions) are inventive and entertaining; and Rowling pulls off a nifty bit of time manipulation in the book’s exciting climax. There’s hope, too, for a lessening in the power Harry’s Muggle relatives seem to have over him — and so a probability that we won’t have to endure quite so much of these tiresomely one-dimensional characters in the future. Speaking of which . . . have a hot butterbeer, future reader, and enjoy. MARTHA V. PARRAVANO</p>
+       <p>⭐⭐⭐⭐⭐</p>
+       <p>---------------------------------------------------------------</p>
+       <p>By Horn Book </p>
+       <a
+            href="https://www.hbook.com/?detailStory=reviews-j-k-rowlings-harry-potter-series"
+            >Learn More</a
+          >  
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--accordion section ends -->
+  <section col-sm-12 col-md-12 col-lg-4 >
+ <!--Carousel section-->
+      
+ <section class="row">
+    <section id="carousel-section">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              
+            <img
+              src="img/part1book.jpeg"
+              class="d-block w-100"
+              alt="Part 1"
+            />
+            <div class="carousel-caption d-none d-md-block ">
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                
+              </div>
+          </div>
+          <div class="carousel-item">  
+            
+            <img src="img/part2book.jpg" class="d-block w-100" alt="Part 2" />
+            <div class="carousel-caption d-none d-md-block">
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/part3book.jpg" class="d-block w-100" alt="Part 3" />
+            <div class="carousel-caption d-none d-md-block">
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                
+              </div>
+          </div>
+          <div class="carousel-item">
+              
+            <img src="img/part4book.jpg" class="d-block w-100" alt="Part 4" />
+            <div class="carousel-caption d-none d-md-block">
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                
+              </div>
+          </div>
+          <div class="carousel-item">
+             
+            <img src="img/part5book.jpg" class="d-block w-100" alt="Part 5" />
+            <div class="carousel-caption d-none d-md-block ">
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                
+              </div>
+          </div>
+          <div class="carousel-item">
+              
+            <img src="img/part6book.jpg" class="d-block w-100" alt="Part 6" />
+            <div class="carousel-caption d-none d-md-block">
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                
+              </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+  </section>
+
+    <!--Carousel section ends-->
+  </div>
+</div>
+
+    </main>
+
+    <!-- jQuery, Popper.js,Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function() {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+      </div>
+  </body>
+</html>
+
+<!--background image from https://unsplash.com/images/things/book 
+part 1 https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fwarner-bros-entertainment%2Fimages%2F0%2F0e%2FPhilostone.jpg%2Frevision%2Flatest%3Fcb%3D20160307194850&imgrefurl=https%3A%2F%2Fwarnerbros.fandom.com%2Fwiki%2FHarry_Potter_and_the_Philosopher%2527s_Stone&tbnid=ZgUjyxinrh3ydM&vet=12ahUKEwiBuayk6vvsAhVOOK0KHWrxAs0QMygHegUIARCVAg..i&docid=kvXfXBvca388CM&w=1013&h=1500&q=harry%20potter%20and%20philosopher%27s%20stone&ved=2ahUKEwiBuayk6vvsAhVOOK0KHWrxAs0QMygHegUIARCVAg 
+part 1 book: https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2016%2F09%2Fkkhp1-lg.jpg
+
+part 2 https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fec%2F6b%2Fe2%2Fec6be2782e2e7a1a07e95064eb64d0e4.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F841680617841127429%2F&tbnid=nH3BEkO5P6kgfM&vet=12ahUKEwjGtv317PvsAhUDDq0KHXKoCJYQMygCegUIARDeAQ..i&docid=QNA_b6wuY8mxWM&w=512&h=768&q=harry%20potter%202&ved=2ahUKEwjGtv317PvsAhUDDq0KHXKoCJYQMygCegUIARDeAQ
+part 2 book https://i.pinimg.com/originals/d3/8f/9a/d38f9ab2f52b4c0ff921e18e493b8cea.jp
+
+part 3 https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fa%2Fa8%2FHarry_Potter_and_the_Prisoner_of_Azkaban_2.jpg%2Frevision%2Flatest%3Fcb%3D20130803163319&imgrefurl=https%3A%2F%2Fharrypotter.fandom.com%2Fwiki%2FHarry_Potter_and_the_Prisoner_of_Azkaban_(film)&tbnid=Nmwvl9dJ5vwpTM&vet=12ahUKEwi9gZiV7fvsAhVNs6wKHSHhA6IQMygDegUIARDXAQ..i&docid=jOxalqdZAcBx4M&w=1000&h=1500&q=harry%20potter%203&ved=2ahUKEwi9gZiV7fvsAhVNs6wKHSHhA6IQMygDegUIARDXAQ
+part 3 book https://i.pinimg.com/originals/91/13/10/911310f35dd56406f6c47b50aa1448c3.jpg
+
+part 4 https://www.google.com/imgres?imgurl=https%3A%2F%2Fpics.filmaffinity.com%2FHarry_Potter_and_the_Goblet_of_Fire-612673227-large.jpg&imgrefurl=https%3A%2F%2Fwww.filmaffinity.com%2Fus%2Ffilm372126.html&tbnid=5P--N-wOkOEnJM&vet=12ahUKEwiU4fmk7fvsAhXxi60KHa5DD1QQMygEegUIARDgAQ..i&docid=6HKjQhMA2umD2M&w=813&h=1200&q=harry%20potter%204&ved=2ahUKEwiU4fmk7fvsAhXxi60KHa5DD1QQMygEegUIARDgAQ
+part 4 book https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg
+
+part 5 book https://images-na.ssl-images-amazon.com/images/I/816EBGJKjaL.jpg 
+
+part 6 book https://images-na.ssl-images-amazon.com/images/I/71HAU27ETJL.jpg
+
+author https://homeandspirit.files.wordpress.com/2014/02/jkrowling.jpg
+-->
